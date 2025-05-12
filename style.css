@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    border-bottom: solid black 1px;
+
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.navbar-s1__title {
+    color: #A23BD0;
+}
+
+.navbar-s2 {
+    display: flex;
+    width: 100%;
+    border: solid black 2px;
+    align-items: center;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.navbar-s2__searchbox {
+    border: none;
+    width: 70%;
+    font-size: 16px;
+}
+
+.navbar-s2 input:focus {
+    outline: none;
+}
+
+.navbar-s3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+
+.categories p {
+    color: white;
+    border: solid 1px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #A23BD0;
+}
+
+.sale-img {
+    padding-left: 80px;
+
+}
+
+.recommended{
+    padding: 30px;
+}
+
+.recommended p{
+    padding-bottom: 30px;
+}
+.recommended__container,.popular__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(244, 242, 242);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-card del{
+    color: red;
+}
+
+.topics{
+    padding: 30px;
+}
+
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.topics__container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    margin: 5px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer__s1{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.footer__s1 p{
+    margin: 20px;
+}
+
+.footer__s2{
+    padding-left: 30px;
+}
+
