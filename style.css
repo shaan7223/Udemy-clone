@@ -10,6 +10,7 @@
     padding: 10px;
     gap: 20px;
     border-bottom: solid black 1px;
+    align-items: center;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -51,6 +52,11 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.navbar-s4 {
+    display: none;
+    font-size: 20px;
 }
 
 .mylearning {
@@ -143,15 +149,17 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-basis: 4;
+    flex-grow: 1;
 }
 
 .course-card {
-    width: 300px;
+    width: 20%;
     padding: 10px;
     background-color: rgb(244, 242, 242);
     border-radius: 10px;
     margin: 9px;
-
+    flex-grow: 1;
 }
 
 .course-card img {
@@ -202,4 +210,27 @@ body {
 
 .footer__s2 {
     padding-left: 30px;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+
+    @media screen and (max-width:600px) {
+
+        .course-card {
+            flex-basis: 30%;
+        }
+
+        .categories, .navbar-s2,.navbar-s3 {
+            display: none;
+        }
+
+        .navbar-s4{
+            display: block;
+        }
+        
+    }
+
 }
